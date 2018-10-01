@@ -1,8 +1,8 @@
 # Add  code here!
 def prime?(integer)
-  if number >= 2
-      (2..number - 1).all? do |integer|
-        number % integer != 0
+  if integer >= 2
+      (2..integers - 1).all? do |integer|
+        integers % integer != 0
       end
     else
       return false
